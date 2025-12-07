@@ -9,5 +9,7 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Curl Render Backend
-        run: curl https://codeverse-innovations-backend.onrender.com/health 
+      - name: Curl All Backends
+        run: |
+          curl https://codeverse-innovations-backend.onrender.com/health
+          curl https://rag-chatbot-backend-q1x0.onrender.com/
