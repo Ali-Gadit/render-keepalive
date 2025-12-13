@@ -13,3 +13,4 @@ jobs:
         run: |
           curl https://codeverse-innovations-backend.onrender.com/health
           curl https://rag-chatbot-backend-q1x0.onrender.com/
+          curl https://physical-ai-and-humanoid-robotics-book-1.onrender.com/health
