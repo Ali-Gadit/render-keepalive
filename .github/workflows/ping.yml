@@ -12,3 +12,4 @@ jobs:
       - name: Curl All Backends
         run: |
           curl https://codeverse-innovations-backend.onrender.com/health
+          curl -I https://codeverse-crm.streamlit.app/
